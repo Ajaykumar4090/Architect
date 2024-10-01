@@ -1,0 +1,187 @@
+/* Navbar custom styles */
+.navbar a{
+    margin-left: 20px;
+}
+.navbar a span{
+  color: #001F5B;
+}
+.navbar a p{
+  font-size: small;
+}
+.navbar h1{
+  background-color: #001F5B;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: rotate(180deg);
+  padding: 5px;
+}
+  .navbar-nav .nav-item .nav-link {
+    color: #000;
+  }
+  
+  .navbar-nav .btn-primary {
+    background-color: #001F5B;
+    border: none;
+  }
+  .navbar-nav li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 20px;
+  }
+  #login{
+    padding: 5px 25px;
+  }
+  
+  .carousel-caption h5 {
+    background-color: #445f9494;
+    padding: 20px;
+    margin-bottom: 13rem;
+    display: inline-block;
+    font-size: 50px;
+  }
+  .carousel-item img {
+  height: 550px; 
+  object-fit: cover; 
+}
+.container h3{
+    color: #001F5B;
+    font-weight: 700;
+    padding: 2px;
+}
+.contact-section {
+    background: url(Image/carousal1.jpg);
+}
+.contact-section .container{
+    max-width: 700px;
+}
+.contact-section h2{
+    text-transform: uppercase;
+    color: white;
+    padding: 20px;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+.contact-section form input{
+    padding: 20px;
+    font-weight: bold;
+}
+.contact-section form textarea{
+    font-weight: bold;
+}
+.contact-section .container .btn{
+    border: 1px solid #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.architect-profiles .container h2{
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 5rem;
+    font-weight: bold;
+}
+.architect-profiles .container span{
+    color: #001F5B;
+}
+.architect-profiles .container .row h5{
+  text-transform: uppercase;
+  color: #001F5B;
+}
+
+.architect-profiles .container .btn{
+  border: 1px solid #001F5B;
+}
+
+/* Features section */
+  .feature-icon i {
+    color: #001F5B;
+  }
+  .features-section h4{
+    text-transform: uppercase;
+  }
+  .features-section h2{
+    text-transform: uppercase;
+    padding: 40px;
+    font-weight: 700;
+  }
+  .features-section span{
+    color: #001F5B;
+  }
+  
+  .profile-box img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  /* Newsletter section */
+  .newsletter-section{
+    background: url(Image/hero-image2.jpg);
+  }
+  .newsletter-section .container h2{
+    margin-bottom: 3rem;
+    font-weight: bold;
+  }
+  .newsletter-section input {
+    padding: 10px;
+    border: 2px solid #001F5B;
+  }
+  .newsletter-section .container h2{
+    color: #fff;
+  }
+  .newsletter-section .btn-primary {
+    background-color: #001F5B;
+    border: 1px solid #000;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #001F5B;
+  }
+  footer .container{
+    max-width: 900px;
+  }
+footer .container .row a .fab{
+  padding: 10px;
+  border: solid 2px #fff;
+  border-radius: 50%;
+}
+footer .container .row div{
+  margin-top: 2rem;
+}
+footer .container .row div h4{
+  border-top: 1px solid #fff;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 5px;
+}
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+/* Additional styles for very small screens */
+@media (max-width: 480px) {
+  .navbar a p {
+    font-size: x-small;
+    
+  }
+  .navbar span{
+    font-size: medium;
+  }
+
+  .navbar h1 {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+}
